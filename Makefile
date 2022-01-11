@@ -1,4 +1,4 @@
-EXEMAIN = pa1
+EXEMAIN = main
 EXEBlock = testBlock
 EXEChain = testChain
 OBJS  = main.o PNG.o HSLAPixel.o lodepng.o chain.o block.o
@@ -10,7 +10,7 @@ CXXFLAGS = -stdlib=libc++ -std=c++1y -c -g -O0 -Wall -Wextra -pedantic
 LD = clang++
 LDFLAGS = -stdlib=libc++ -std=c++1y -lc++abi -lpthread -lm
 
-all : pa1 testBlock testChain
+all : main testBlock testChain
 
 $(EXEMAIN) : $(OBJS)
 	$(LD) $(OBJS) $(LDFLAGS) -o $(EXEMAIN)
