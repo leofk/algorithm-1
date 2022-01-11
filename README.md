@@ -1,12 +1,20 @@
-# Messing with Linked Lists
+# Linked Lists
 
 Input and Output in /images.
 
 Run:
+- ./main
+- ./testBlock
+- ./testChain
 
-./main
-./testBlock
-./testChain
+Example:
+- Chain
+  - 60 columns
+  - 70 rows
+  - reverse()
+  - rotate(3)
 
-![test](https://user-images.githubusercontent.com/73722423/149010943-5db6ca4f-6604-408e-a1ad-4113c8171f97.png)
-![zzz](https://user-images.githubusercontent.com/73722423/149010953-cdfc3101-3dc0-4ec9-aa45-486c0439cf0a.png)
+- Block
+  - flipVert()
+
+![zzz](https://user-images.githubusercontent.com/73722423/149012858-48992fa0-08bf-4895-b85a-5d7b6dc5487d.png)
