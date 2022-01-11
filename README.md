@@ -1,5 +1,7 @@
 # Linked Lists
 
+Implmenting a Doubly-Linked List to manipulate PNGs.
+
 Input and Output in /images.
 
 Run:
